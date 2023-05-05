@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="espresso_dopio">
+		<title>Espresso Dopio</title>
+		<size>500,500</size>
+		<bg>#F0F0F0</bg>
+		<minsize>500,500</minsize>
+		<maxsize>500,500</maxsize>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+			<bitmap>/home/kacper/Pulpit/Ciekawa_Projekt/obrazki/kawy/espresso_dopio.png</bitmap>
+			<pos>120,50</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>- podwojna kolba&#x0A;-drugi przycisk na ekspresie</label>
+			<pos>5,300</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Sans</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Przed przygotowaniem kaw nalezy przepusic wrzatek przez ekspres</label>
+			<pos>5,350</pos>
+		</object>
+	</object>
+</wxsmith>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Zamowienia_okno">
+		<title>Zamowienia</title>
+		<size>800,800</size>
+		<bg>#F0F0F0</bg>
+		<minsize>800,800</minsize>
+		<maxsize>800,800</maxsize>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+			<bitmap>/home/kacper/Pulpit/Ciekawa_Projekt/obrazki/ciekawa.png</bitmap>
+			<pos>250,50</pos>
+		</object>
+		<object class="wxListBox" name="ID_LISTBOX1" variable="ListBox1" member="yes">
+			<content>
+				<item></item>
+				<item>Espresso</item>
+				<item>Espresso Dopio</item>
+				<item>Flat white</item>
+				<item>Cafe mocha</item>
+				<item>Irish Cafe</item>
+				<item>Latte Macchiato</item>
+				<item>Herbata</item>
+				<item>Sex on the Beach</item>
+				<item>Smerf</item>
+				<item>Kamikadze</item>
+				<item>Red Gentelman</item>
+				<item>Tequila Sunrise</item>
+				<item>Tropical</item>
+				<item>Malibu Sunrise</item>
+			</content>
+			<default>-1</default>
+			<pos>50,360</pos>
+			<size>150,360</size>
+			<handler function="OnListBox1Select" entry="EVT_LISTBOX" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Dodaj -&gt;</label>
+			<pos>230,575</pos>
+			<size>120,30</size>
+			<handler function="OnButton1Click1" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticBox" name="ID_STATICBOX1" variable="StaticBox1" member="yes">
+			<label>MENU</label>
+			<pos>30,330</pos>
+			<size>190,400</size>
+		</object>
+		<object class="wxStaticBox" name="ID_STATICBOX2" variable="StaticBox2" member="yes">
+			<label>Zamowienie</label>
+			<pos>360,330</pos>
+			<size>184,400</size>
+		</object>
+		<object class="wxListBox" name="ID_LISTBOX2" variable="ListBox2" member="yes">
+			<content>
+				<item> </item>
+			</content>
+			<default>-1</default>
+			<pos>380,360</pos>
+			<size>150,360</size>
+			<handler function="OnListBox2Select" entry="EVT_LISTBOX" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<value>Numer stolika</value>
+			<pos>232,525</pos>
+			<size>120,30</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+			<value>Ilosc</value>
+			<pos>232,475</pos>
+			<size>120,30</size>
+		</object>
+		<object class="wxListBox" name="ID_LISTBOX3" variable="ListBox3" member="yes">
+			<content>
+				<item> </item>
+			</content>
+			<default>-1</default>
+			<pos>560,360</pos>
+			<size>50,360</size>
+			<handler function="OnListBox3Select" entry="EVT_LISTBOX" />
+		</object>
+		<object class="wxListBox" name="ID_LISTBOX4" variable="ListBox4" member="yes">
+			<content>
+				<item> </item>
+			</content>
+			<default>-1</default>
+			<pos>640,360</pos>
+			<size>112,360</size>
+			<handler function="OnListBox4Select" entry="EVT_LISTBOX" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+			<label>Wyczysc</label>
+			<pos>232,624</pos>
+			<size>120,30</size>
+			<handler function="OnButton2Click2" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticBox" name="ID_STATICBOX3" variable="StaticBox3" member="yes">
+			<label>Numer Stolika</label>
+			<pos>632,336</pos>
+			<size>128,400</size>
+		</object>
+		<object class="wxStaticBox" name="ID_STATICBOX4" variable="StaticBox4" member="yes">
+			<label>Ilosc</label>
+			<pos>552,336</pos>
+			<size>72,400</size>
+		</object>
+	</object>
+</wxsmith>

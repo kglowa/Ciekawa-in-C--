@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Poradnik_podstawy">
+		<title>Poradnik ogolny</title>
+		<size>500,500</size>
+		<bg>#F0F0F0</bg>
+		<minsize>500,500</minsize>
+		<maxsize>500,500</maxsize>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Pamietaj!</label>
+			<pos>150,50</pos>
+			<size>200,55</size>
+			<font>
+				<size>30</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Sans</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>1. Robiac drinki nie zaluj lodu.&#x0A;2. Trzymaj sie wyznaczonych receptur.&#x0A;3. Nigdy nie wstrzasaj drinkow z napojem gazowanym.&#x0A;4. Myj szklanki na bierzaco&#x0A;5. Na koniec zmiany przetrzyj blaty i stoliki.&#x0A;6. Na koniec zmiany umyj ekspres oraz krany z piwem.&#x0A;7. Na bierzaco uzupelniaj lodowki z piwem.&#x0A;8. Badz zyczliwy w stosunku do naszych klientow.&#x0A;9. Na koniec dnia przelicz utarg i zapisz go w notesie.&#x0A;10. Zabierz swoj napiwek</label>
+			<pos>6,176</pos>
+			<size>408,170</size>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Sans</face>
+			</font>
+		</object>
+	</object>
+</wxsmith>

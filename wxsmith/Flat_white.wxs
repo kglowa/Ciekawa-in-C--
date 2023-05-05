@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Flat_white">
+		<title>Flat white</title>
+		<size>500,500</size>
+		<minsize>500,500</minsize>
+		<maxsize>500,500</maxsize>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+			<bitmap>/home/kacper/Pulpit/Ciekawa_Projekt/obrazki/kawy/flat_white.png</bitmap>
+			<pos>120,50</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>-podwojna kolba&#x0A;- drugi przycisk na ekspresie&#x0A;- mleko podgrzane </label>
+			<pos>5,300</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Przed przygotowaniem kaw nalezy przepusic wrzatek przez ekspres&#x0A; Po wykonaniu kawy nalezy przetrzec spieniacz do mleka</label>
+			<pos>5,370</pos>
+			<size>491,46</size>
+		</object>
+	</object>
+</wxsmith>

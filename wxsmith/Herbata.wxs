@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Herbata">
+		<title>Herbata</title>
+		<size>500,500</size>
+		<bg>#F0F0F0</bg>
+		<minsize>500,500</minsize>
+		<maxsize>500,500</maxsize>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+			<bitmap>/home/kacper/Pulpit/Ciekawa_Projekt/obrazki/kawy/herbata.png</bitmap>
+			<pos>120,50</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>- ostatni przycisk na ekspresie&#x0A;-przed nalaniem wody na hebate nalezy sprawdzic ile stopni pokazuje&#x0A; termometr&#x0A; - dla herbat czarnych termometr powinien wskazywac 95-100 stopni&#x0A;- dla herbat zielonych termometr powinien pokazywac 70-80 stopni&#x0A;- jezeli temperatura jest za wysoka nalezy nacisnac przycisk i przepuscic&#x0A; wrzatek, obserwujac przy tym temperature&#x0A;- nie wrzucamy saszetek z herbata do wrzatku poniewaz&#x0A; moze sie zaparzyc zbyt mocno zanim zdazymy podac zamowienie</label>
+			<pos>5,340</pos>
+		</object>
+	</object>
+</wxsmith>

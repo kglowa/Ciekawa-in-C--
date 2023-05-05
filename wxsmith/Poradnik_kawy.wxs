@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Poradnik_kawy">
+		<title>Pradnik kaw</title>
+		<size>800,800</size>
+		<bg>#F0F0F0</bg>
+		<minsize>800,800</minsize>
+		<maxsize>800,-1</maxsize>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+			<bitmap>/home/kacper/Pulpit/Ciekawa_Projekt/obrazki/ciekawa.png</bitmap>
+			<pos>250,50</pos>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Espresso</label>
+			<pos>300,300</pos>
+			<size>200,30</size>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+			<label>Espresso Dopio</label>
+			<pos>300,350</pos>
+			<size>200,30</size>
+			<handler function="OnButton2Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON3" variable="Button3" member="yes">
+			<label>Flat white</label>
+			<pos>300,400</pos>
+			<size>200,30</size>
+			<handler function="OnButton3Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON4" variable="Button4" member="yes">
+			<label>Caffe mocha</label>
+			<pos>300,450</pos>
+			<size>200,30</size>
+			<handler function="OnButton4Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON5" variable="Button5" member="yes">
+			<label>Irish Caffe</label>
+			<pos>300,500</pos>
+			<size>200,30</size>
+			<handler function="OnButton5Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON6" variable="Button6" member="yes">
+			<label>Latte macchiato</label>
+			<pos>300,550</pos>
+			<size>200,30</size>
+			<handler function="OnButton6Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON7" variable="Button7" member="yes">
+			<label>Herbata</label>
+			<pos>300,600</pos>
+			<size>200,30</size>
+			<handler function="OnButton7Click" entry="EVT_BUTTON" />
+		</object>
+	</object>
+</wxsmith>

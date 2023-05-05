@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="MalibuSunrise">
+		<title>Malibu Sunrise</title>
+		<size>500,500</size>
+		<minsize>500,500</minsize>
+		<maxsize>500,500</maxsize>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>50ml wodka&#x0A;40ml malibu&#x0A;150ml soku pomaranczowego&#x0A;jedna pompka granadyny</label>
+			<pos>0,0</pos>
+		</object>
+	</object>
+</wxsmith>

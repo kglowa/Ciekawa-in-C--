@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Menu_okno">
+		<title>Menu</title>
+		<size>800,800</size>
+		<bg>#F0F0F0</bg>
+		<minsize>800,800</minsize>
+		<maxsize>800,-1</maxsize>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+			<bitmap>/home/kacper/Pulpit/Ciekawa_Projekt/obrazki/ciekawa.png</bitmap>
+			<pos>250,50</pos>
+		</object>
+		<object class="wxListBox" name="ID_LISTBOX1" variable="ListBox1" member="yes">
+			<content>
+				<item></item>
+				<item>Espresso</item>
+				<item>Espresso Dopio</item>
+				<item>Flat white</item>
+				<item>Cafe mocha</item>
+				<item>Irish Cafe</item>
+				<item>Latte Macchiato</item>
+				<item>Herbata</item>
+				<item>Sex on the Beach</item>
+				<item>Smerf</item>
+				<item>Kamikadze</item>
+				<item>Red Gentelman</item>
+				<item>Tequila Sunrise</item>
+				<item>Tropical</item>
+				<item>Malibu Sunrise</item>
+			</content>
+			<default>-1</default>
+			<pos>300,325</pos>
+			<size>200,455</size>
+			<font>
+				<size>15</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Sans</face>
+			</font>
+			<handler function="OnListBox1Select" entry="EVT_LISTBOX" />
+		</object>
+	</object>
+</wxsmith>

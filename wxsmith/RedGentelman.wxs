@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="RedGentelman">
+		<title>Red Gentelman</title>
+		<size>500,500</size>
+		<minsize>500,500</minsize>
+		<maxsize>500,500</maxsize>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>50ml red stag JimBeam&#x0A;30ml wisniowka&#x0A;do do dopelnienia woda gazowana&#x0A;cwiartka cytryny</label>
+			<pos>0,0</pos>
+			<size>0,0</size>
+		</object>
+	</object>
+</wxsmith>

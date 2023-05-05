@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Kamikadze">
+		<title>Kamikadze</title>
+		<size>500,500</size>
+		<minsize>500,500</minsize>
+		<maxsize>500,500</maxsize>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>100ml wodki&#x0A;100ml soku z cytryny&#x0A;70ml blue curacao</label>
+			<pos>0,0</pos>
+		</object>
+	</object>
+</wxsmith>

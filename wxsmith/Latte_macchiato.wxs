@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Latte_macchiato">
+		<title>Latte macchiato</title>
+		<size>500,500</size>
+		<bg>#F0F0F0</bg>
+		<minsize>500,500</minsize>
+		<maxsize>500,500</maxsize>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+			<bitmap>/home/kacper/Pulpit/Ciekawa_Projekt/obrazki/kawy/latte_macchiato.png</bitmap>
+			<pos>120,50</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>-pojedyncza kolba&#x0A;- pierwszy przycisk na ekspresie&#x0A;- lekko spienione mleko pozostawione na pol minuty do odstania</label>
+			<pos>5,350</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Przed przygotowaniem kaw nalezy przepusic wrzatek przez ekspres&#x0A; Po wykonaniu kawy nalezy przetrzec spieniacz do mleka</label>
+			<pos>8,424</pos>
+			<size>488,48</size>
+		</object>
+	</object>
+</wxsmith>

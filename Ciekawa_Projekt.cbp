@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Ciekawa_Projekt" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Ciekawa_Projekt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Ciekawa_Projekt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`wx-config --cflags`" />
+			<Add option="-Winvalid-pch" />
+			<Add option="-include wx_pch.h" />
+			<Add option="-DWX_PRECOMP" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`wx-config --libs`" />
+		</Linker>
+		<Unit filename="Cafe_mocha.cpp" />
+		<Unit filename="Cafe_mocha.h" />
+		<Unit filename="Ciekawa_ProjektApp.cpp" />
+		<Unit filename="Ciekawa_ProjektApp.h" />
+		<Unit filename="Ciekawa_ProjektMain.cpp" />
+		<Unit filename="Ciekawa_ProjektMain.h" />
+		<Unit filename="Espresso.cpp" />
+		<Unit filename="Espresso.h" />
+		<Unit filename="Flat_white.cpp" />
+		<Unit filename="Flat_white.h" />
+		<Unit filename="Herbata.cpp" />
+		<Unit filename="Herbata.h" />
+		<Unit filename="Irish_Caffe.cpp" />
+		<Unit filename="Irish_Caffe.h" />
+		<Unit filename="Kamikadze.cpp" />
+		<Unit filename="Kamikadze.h" />
+		<Unit filename="Latte_macchiato.cpp" />
+		<Unit filename="Latte_macchiato.h" />
+		<Unit filename="MalibuSunrise.cpp" />
+		<Unit filename="MalibuSunrise.h" />
+		<Unit filename="Menu_okno.cpp" />
+		<Unit filename="Menu_okno.h" />
+		<Unit filename="Poradnik_kawy.cpp" />
+		<Unit filename="Poradnik_kawy.h" />
+		<Unit filename="Poradnik_podstawy.cpp" />
+		<Unit filename="Poradnik_podstawy.h" />
+		<Unit filename="RedGentelman.cpp" />
+		<Unit filename="RedGentelman.h" />
+		<Unit filename="Sexonthebeach.cpp" />
+		<Unit filename="Sexonthebeach.h" />
+		<Unit filename="Smerf.cpp" />
+		<Unit filename="Smerf.h" />
+		<Unit filename="TequillaSunrise.cpp" />
+		<Unit filename="TequillaSunrise.h" />
+		<Unit filename="Tropical.cpp" />
+		<Unit filename="Tropical.h" />
+		<Unit filename="Zamowienia_okno.cpp" />
+		<Unit filename="Zamowienia_okno.h" />
+		<Unit filename="espresso_dopio.cpp" />
+		<Unit filename="espresso_dopio.h" />
+		<Unit filename="wx_pch.h">
+			<Option compile="1" />
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="wxsmith/Cafe_mocha.wxs" />
+		<Unit filename="wxsmith/Ciekawa_Projektframe.wxs" />
+		<Unit filename="wxsmith/Espresso.wxs" />
+		<Unit filename="wxsmith/Flat_white.wxs" />
+		<Unit filename="wxsmith/Herbata.wxs" />
+		<Unit filename="wxsmith/Irish_Caffe.wxs" />
+		<Unit filename="wxsmith/Kamikadze.wxs" />
+		<Unit filename="wxsmith/Latte_macchiato.wxs" />
+		<Unit filename="wxsmith/MalibuSunrise.wxs" />
+		<Unit filename="wxsmith/Menu_okno1.wxs" />
+		<Unit filename="wxsmith/Poradnik_kawy.wxs" />
+		<Unit filename="wxsmith/Poradnik_podstawy.wxs" />
+		<Unit filename="wxsmith/RedGentelman.wxs" />
+		<Unit filename="wxsmith/Sexonthebeach.wxs" />
+		<Unit filename="wxsmith/Smerf.wxs" />
+		<Unit filename="wxsmith/TequillaSunrise.wxs" />
+		<Unit filename="wxsmith/Tropical.wxs" />
+		<Unit filename="wxsmith/Zamowienia_okno1.wxs" />
+		<Unit filename="wxsmith/espresso_dopio.wxs" />
+		<Extensions>
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="Ciekawa_ProjektApp.cpp" main="Ciekawa_ProjektFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/Ciekawa_Projektframe.wxs" src="Ciekawa_ProjektMain.cpp" hdr="Ciekawa_ProjektMain.h" fwddecl="0" i18n="1" name="Ciekawa_ProjektFrame" language="CPP" />
+					<wxDialog wxs="wxsmith/Menu_okno1.wxs" src="Menu_okno.cpp" hdr="Menu_okno.h" fwddecl="0" i18n="1" name="Menu_okno" language="CPP" />
+					<wxDialog wxs="wxsmith/Zamowienia_okno1.wxs" src="Zamowienia_okno.cpp" hdr="Zamowienia_okno.h" fwddecl="0" i18n="1" name="Zamowienia_okno" language="CPP" />
+					<wxDialog wxs="wxsmith/Poradnik_podstawy.wxs" src="Poradnik_podstawy.cpp" hdr="Poradnik_podstawy.h" fwddecl="0" i18n="1" name="Poradnik_podstawy" language="CPP" />
+					<wxDialog wxs="wxsmith/Poradnik_kawy.wxs" src="Poradnik_kawy.cpp" hdr="Poradnik_kawy.h" fwddecl="0" i18n="1" name="Poradnik_kawy" language="CPP" />
+					<wxDialog wxs="wxsmith/Espresso.wxs" src="Espresso.cpp" hdr="Espresso.h" fwddecl="0" i18n="1" name="Espresso" language="CPP" />
+					<wxDialog wxs="wxsmith/espresso_dopio.wxs" src="espresso_dopio.cpp" hdr="espresso_dopio.h" fwddecl="0" i18n="1" name="espresso_dopio" language="CPP" />
+					<wxDialog wxs="wxsmith/Flat_white.wxs" src="Flat_white.cpp" hdr="Flat_white.h" fwddecl="0" i18n="1" name="Flat_white" language="CPP" />
+					<wxDialog wxs="wxsmith/Cafe_mocha.wxs" src="Cafe_mocha.cpp" hdr="Cafe_mocha.h" fwddecl="0" i18n="1" name="Cafe_mocha" language="CPP" />
+					<wxDialog wxs="wxsmith/Irish_Caffe.wxs" src="Irish_Caffe.cpp" hdr="Irish_Caffe.h" fwddecl="0" i18n="1" name="Irish_Caffe" language="CPP" />
+					<wxDialog wxs="wxsmith/Latte_macchiato.wxs" src="Latte_macchiato.cpp" hdr="Latte_macchiato.h" fwddecl="0" i18n="1" name="Latte_macchiato" language="CPP" />
+					<wxDialog wxs="wxsmith/Herbata.wxs" src="Herbata.cpp" hdr="Herbata.h" fwddecl="0" i18n="1" name="Herbata" language="CPP" />
+					<wxDialog wxs="wxsmith/Smerf.wxs" src="Smerf.cpp" hdr="Smerf.h" fwddecl="0" i18n="1" name="Smerf" language="CPP" />
+					<wxDialog wxs="wxsmith/Kamikadze.wxs" src="Kamikadze.cpp" hdr="Kamikadze.h" fwddecl="0" i18n="1" name="Kamikadze" language="CPP" />
+					<wxDialog wxs="wxsmith/RedGentelman.wxs" src="RedGentelman.cpp" hdr="RedGentelman.h" fwddecl="0" i18n="1" name="RedGentelman" language="CPP" />
+					<wxDialog wxs="wxsmith/TequillaSunrise.wxs" src="TequillaSunrise.cpp" hdr="TequillaSunrise.h" fwddecl="0" i18n="1" name="TequillaSunrise" language="CPP" />
+					<wxDialog wxs="wxsmith/Tropical.wxs" src="Tropical.cpp" hdr="Tropical.h" fwddecl="0" i18n="1" name="Tropical" language="CPP" />
+					<wxDialog wxs="wxsmith/MalibuSunrise.wxs" src="MalibuSunrise.cpp" hdr="MalibuSunrise.h" fwddecl="0" i18n="1" name="MalibuSunrise" language="CPP" />
+					<wxDialog wxs="wxsmith/Sexonthebeach.wxs" src="Sexonthebeach.cpp" hdr="Sexonthebeach.h" fwddecl="0" i18n="1" name="Sexonthebeach" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
